@@ -66,10 +66,29 @@ main::after{
 }
 main{
     height: 600px;
-    background-color: blue;
+    width: 100%;
+    margin-top: 50px;
 }
 .sx{
-
-
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.cent{
+    float: left;
+    width: 56%;
+    height: 100%;
+    margin: 0% 2%;
+}
+.dx{
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+main div img{
+  width: 100%;
+  height: 35%;
+  object-fit: cover;
+  border-radius: 20px;
 
 }
