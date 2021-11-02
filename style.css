@@ -35,6 +35,10 @@ li{
     background-size: cover;
     border-radius: 30px;
     position: relative;
+    
+}
+.banner:not(.titolobanner .testobanner){
+    filter: brightness(80%);
 }
 
 .titolobanner{
@@ -43,6 +47,7 @@ li{
     bottom: 80px;
     left: 60px;
     margin-right: 600px ;
+    color: white;
 }
 .testobanner{
     font-size: 15px;
@@ -50,6 +55,7 @@ li{
     bottom:50px;
     left: 60px;
     margin-right: 600px;
+    color: white;
 }
 
 .titolo{
@@ -90,5 +96,6 @@ main div img{
   height: 35%;
   object-fit: cover;
   border-radius: 20px;
+  filter: brightness(80%);
 
 }
