@@ -25,5 +25,51 @@ li{
     list-style: none;
     margin-right: 3px;
     text-align: left;
-    
+}
+
+.banner{
+    background-image: url(img/banner.jpg);
+    height: 500px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    position: relative;
+}
+
+.titolobanner{
+    font-size: 30px;
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    margin-right: 600px ;
+}
+.testobanner{
+    font-size: 15px;
+    position: absolute;
+    bottom:50px;
+    left: 60px;
+    margin-right: 600px;
+}
+
+.titolo{
+    font-size: 35px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0px 3px 0px;
+
+}
+main::after{
+    Content: “”;
+    Display: table;
+    clear: both;
+}
+main{
+    height: 600px;
+    background-color: blue;
+}
+.sx{
+
+
+
 }
